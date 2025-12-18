@@ -88,3 +88,26 @@ langgraph-ai-assistant/
 ├── requirements.txt
 ├── .env
 └── README.md
+```
+
+## 🚀 How to Run the Project
+
+1. Clone the repository
+- git clone <your-repo-url>
+- cd langgraph-ai-assistant
+
+2. Create virtual environment (optional but recommended)
+- python -m venv venv
+- venv\Scripts\activate
+
+3. Install dependencies
+- pip install -r requirements.txt
+
+4. Set up environment variables
+
+- Create a .env file:
+
+- GOOGLE_API_KEY=your_api_key_here
+
+5. Run the application
+- streamlit run app.py
